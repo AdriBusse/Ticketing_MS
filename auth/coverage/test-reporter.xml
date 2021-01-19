@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\adrib\Documents\Projekte\TutProjekts\Microservices\ticketing\auth\src\routes\__test__\signout.test.ts">
+        <testCase name="clears the cookie after signout" duration="277"/>
+    </file>
+    <file path="C:\Users\adrib\Documents\Projekte\TutProjekts\Microservices\ticketing\auth\src\routes\__test__\currentUser.test.ts">
+        <testCase name="response with details about current User" duration="271"/>
+        <testCase name="response with no details if user not signed in" duration="14"/>
+    </file>
+    <file path="C:\Users\adrib\Documents\Projekte\TutProjekts\Microservices\ticketing\auth\src\routes\__test__\signin.test.ts">
+        <testCase name="fails when an unknown user try login" duration="146"/>
+        <testCase name="fails when an incorrect password" duration="141"/>
+        <testCase name="response with cookie when valid login" duration="210"/>
+    </file>
+    <file path="C:\Users\adrib\Documents\Projekte\TutProjekts\Microservices\ticketing\auth\src\routes\__test__\signup.test.ts">
+        <testCase name="returns a 201 on successfull signup" duration="263"/>
+        <testCase name="returns a 400 with invalid email" duration="26"/>
+        <testCase name="returns a 400 with invalid password" duration="13"/>
+        <testCase name="returns a 400 with no password and email" duration="11"/>
+        <testCase name="returns a 400 with no password or email" duration="18"/>
+        <testCase name="disallowed duplicated emails" duration="117"/>
+        <testCase name="set a cookie after signup" duration="112"/>
+    </file>
+</testExecutions>
