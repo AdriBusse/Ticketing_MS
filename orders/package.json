@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache",
-    "sonar": "node sonar-project.js"
+    "sonar": "node sonar-project.js",
+    "test:ci": "jest"
   },
   "jest": {
     "preset": "ts-jest",
